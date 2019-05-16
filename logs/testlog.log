@@ -1,0 +1,5 @@
+18:31:24.001 [main] INFO  resources.BaseClass - Navigated to Home Page
+18:31:31.404 [main] INFO  resources.BaseClass - Successfully Validated Username and Password
+18:31:31.404 [main] INFO  resources.BaseClass - Non Restricted User
+18:31:40.744 [main] INFO  resources.BaseClass - Navigated to Home Page
+18:31:40.854 [main] INFO  resources.BaseClass - Successfully Validated Text Message

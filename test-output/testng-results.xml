@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="90277" started-at="2019-05-15T20:21:18Z" finished-at="2019-05-15T20:22:48Z">
+    <groups>
+    </groups>
+    <test name="Home Page test" duration-ms="64361" started-at="2019-05-15T20:21:18Z" finished-at="2019-05-15T20:22:22Z">
+      <class name="Hiko.HomePage">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:Hiko.HomePage@436813f3]" name="Initialize" is-config="true" duration-ms="3750" started-at="2019-05-15T20:21:18Z" finished-at="2019-05-15T20:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="BasePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Hiko.HomePage@436813f3]" name="BasePageNavigation" duration-ms="54809" started-at="2019-05-15T20:21:22Z" data-provider="getData" finished-at="2019-05-15T20:22:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc.jk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vk678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method status="PASS" signature="BasePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Hiko.HomePage@436813f3]" name="BasePageNavigation" duration-ms="5656" started-at="2019-05-15T20:22:16Z" data-provider="getData" finished-at="2019-05-15T20:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc.gh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2kjhs3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Hiko.HomePage@436813f3]" name="teardown" is-config="true" duration-ms="109" started-at="2019-05-15T20:22:22Z" finished-at="2019-05-15T20:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Hiko.HomePage -->
+    </test> <!-- Home Page test -->
+    <test name="Title Validation test" duration-ms="25892" started-at="2019-05-15T20:22:22Z" finished-at="2019-05-15T20:22:48Z">
+      <class name="Hiko.ValidateTitle">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:Hiko.ValidateTitle@3c19aaa5]" name="Initialize" is-config="true" duration-ms="2301" started-at="2019-05-15T20:22:22Z" finished-at="2019-05-15T20:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="BasePageNavigation()[pri:0, instance:Hiko.ValidateTitle@3c19aaa5]" name="BasePageNavigation" duration-ms="23489" started-at="2019-05-15T20:22:25Z" finished-at="2019-05-15T20:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Hiko.ValidateTitle@3c19aaa5]" name="teardown" is-config="true" duration-ms="99" started-at="2019-05-15T20:22:48Z" finished-at="2019-05-15T20:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Hiko.ValidateTitle -->
+    </test> <!-- Title Validation test -->
+  </suite> <!-- Suite -->
+</testng-results>
