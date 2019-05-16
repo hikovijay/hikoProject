@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Hiko.Listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
   <test thread-count="5" name="Home Page test(failed)">
     <classes>
       <class name="Hiko.HomePage">
         <methods>
           <include name="teardown"/>
-          <include name="BasePageNavigation" invocation-numbers="0"/>
+          <include name="LogInCheck" invocation-numbers="0"/>
           <include name="Initialize"/>
         </methods>
       </class> <!-- Hiko.HomePage -->

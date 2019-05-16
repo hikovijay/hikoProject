@@ -30,7 +30,7 @@ public Properties prop;
 		if(BrowserName.equals("Chrome")) {
 			//Chrome set property
 			
-			System.setProperty("webdriver.chrome.driver" , "C:\\Users\\vijay\\Git\\Dependencies\\Drivers\\chromedriver.exe" );
+			System.setProperty("webdriver.chrome.driver" , "C:\\Users\\vijay\\HikoProject\\dependency\\Drivers\\chromedriver.exe" );
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--start-maximized");
 			options.addArguments("--disable-notifications");
@@ -40,14 +40,14 @@ public Properties prop;
 		
 		else if (BrowserName.equals("Firefox")) {
 			//Firefox Property
-			 System.setProperty("webdriver.gecko.driver", "C:\\Users\\vijay\\Git\\Dependencies\\Drivers\\geckodriver.exe");
+			 System.setProperty("webdriver.gecko.driver", "C:\\Users\\vijay\\HikoProject\\dependency\\Drivers\\geckodriver.exe");
 		     driver = new FirefoxDriver();
 		     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);// depends on page size and images etc
 		}
 		
 		else if (BrowserName.equals("Edge")) {
 			//IE Property
-			System.setProperty("webdriver.edge.driver", "C:\\Users\\vijay\\Git\\Dependencies\\Drivers\\msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver", "C:\\Users\\vijay\\HikoProject\\dependency\\Drivers\\msedgedriver.exe");
 			driver = new EdgeDriver();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);// depends on page size and images etc
 		}
