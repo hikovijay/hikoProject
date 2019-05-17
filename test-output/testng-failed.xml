@@ -16,4 +16,15 @@
       </class> <!-- Hiko.HomePage -->
     </classes>
   </test> <!-- Home Page test(failed) -->
+  <test thread-count="5" name="Title Validation test(failed)">
+    <classes>
+      <class name="Hiko.ValidateTitle">
+        <methods>
+          <include name="Initialize"/>
+          <include name="teardown"/>
+          <include name="ValidateAppTitle"/>
+        </methods>
+      </class> <!-- Hiko.ValidateTitle -->
+    </classes>
+  </test> <!-- Title Validation test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
