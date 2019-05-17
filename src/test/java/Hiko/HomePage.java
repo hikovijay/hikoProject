@@ -27,7 +27,7 @@ public static Logger log = LogManager.getLogger(BaseClass.class.getName());
 	public void LogInCheck(String Username , String Password,String text) throws IOException {
 		
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\vijay\\Git\\HikoProject\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis = new FileInputStream("src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
 		//WebDriverWait wait=new WebDriverWait(driver, 20);
 		//wait.until(ExpectedConditions.visibilityOf(l.PopupClose()));

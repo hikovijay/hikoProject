@@ -25,7 +25,7 @@ public class ValidateTitle extends BaseClass{
 	@Test
 	public void ValidateAppTitle() throws IOException {
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\vijay\\Git\\HikoProject\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis = new FileInputStream("\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);		
 		LandingPage l = new LandingPage(driver);
 		driver.get(prop.getProperty("url"));
