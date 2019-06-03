@@ -10,7 +10,7 @@
       <class name="Hiko.HomePage">
         <methods>
           <include name="teardown"/>
-          <include name="LogInCheck" invocation-numbers="0"/>
+          <include name="LogInCheck"/>
           <include name="Initialize"/>
         </methods>
       </class> <!-- Hiko.HomePage -->
